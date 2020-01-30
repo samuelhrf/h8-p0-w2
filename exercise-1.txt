@@ -1,0 +1,82 @@
+1. Newton Second Law
+
+Algoritma
+---------
+Determine mass value
+Determine velocity value
+Get Force value by multiplied mass with velocity
+
+Pseudocode
+----------
+INIT m as mass
+INIT a as velocity
+INIT F as force
+  STORE m with any value
+  STORE a with any value
+    CALCULATE m times a
+     SET F with calculation result
+       DISPLAY F
+
+==================================================================================
+
+2. Tahun Kabisat
+
+Algoritma
+---------
+Determine years values
+If years value is divisible by 4 and years value is not divisible by 100, so years will be "Tahun Kabisat"
+If years value is divisible by 4 and years value is divisible by 100 and also years value divisible by 400, so years will be "Tahun Kabisat" 
+
+Pseudocode
+----------
+INIT years as years
+  STORE years with any values
+    IF years mod 4 equals to 0 AND years mod 100 not equals to 0 THEN
+      DISPLAY Ini Tahun Kabisat
+    IF years mod 4 equals to 0 AND years mod 100 equals to 10 AND years mod 200 equals to 0 THEN
+      DISPLAY Ini Tahun Kabisat
+    ELSE
+      DISPLAY Bukan Tahun Kabisat
+
+==================================================================================
+
+3. Laundry Day
+
+Algoritma
+---------
+Collect 20 pieces of cloths
+After collect it, Turn on the Wash Machine
+
+Pseudocode
+----------
+INIT cloth as cloth
+  WHILE cloth <= 20
+   IF cloth equals to 20
+     DISPLAY Nyalakan Mesin Cuci
+       COMPUTE cloth as cloth+1 
+ENDWHILE
+
+==================================================================================
+
+4. Periksa Kuku
+
+Algoritma
+---------
+Collect 40 students in a class
+Teacher would check nail of each students in the class
+If teacher found a student with short nail, teacher would say "Good!" to that student
+If teacher found a student with long nail, teacher would give punishment to that student
+
+Pseudocode
+----------
+INIT teacher as teacher
+INIT student as student
+INIT nail-length as length
+  SET nail-length with 3
+    WHILE teacher <= 40
+      IF student <= nail-length
+        DISPLAY "Bagus!"
+      ELSE 
+        DISPLAY "Kena Hukum!"
+      COMPUTE teacher as teacher+1
+ENDWHILE
